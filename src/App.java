@@ -4,7 +4,7 @@ public class App {
         Usuario usuario =new Usuario("Omar", "Cabarcas");
         Usuario usuario2 =new Usuario("Camilo", "Cabarcas");
 
-        System.out.println("Nombre de usuario y apellido: " + usuario.getName()+" " + usuario.getApellido());
+        System.out.println(usuario.getName()+ " " + usuario.getApellido());
 
     }
 }

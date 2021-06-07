@@ -8,7 +8,7 @@ public class Usuario {
   }
 
   public String getName() {
-    return name;
+    return "Nombre: " + name;
   }
 
   public void setName(String name) {
@@ -16,7 +16,7 @@ public class Usuario {
   }
 
   public String getApellido() {
-    return apellido;
+    return "Apellido :" + apellido;
   }
 
   public void setApellido(String apellido) {

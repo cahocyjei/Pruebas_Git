@@ -3,7 +3,7 @@ public class App {
         
         Usuario usuario =new Usuario("Omar", "Cabarcas");
 
-        System.out.println("Nombre de usuario y apellido: " + usuario.getName()+" " + usuario.getApellido());
+        System.out.println(usuario.getName()+ " " + usuario.getApellido());
 
     }
 }
